@@ -9,7 +9,7 @@
 }
 
 body, html{
-    background-color: #000066;
+    background-color: rgb(0, 0, 102);
     margin: 0px;
     padding: 0px;
     padding-left: 0px;
@@ -19,7 +19,7 @@ body, html{
 }
 
 h1{
-    padding-top: 15px;
+    padding-top: 20px;
     color: white;
     margin-left: 0px;
     margin-left: 100px;
@@ -76,6 +76,7 @@ h3{
     background-color: rgb(2, 2, 50);
     position: fixed;
     display: flex;
+    
 }
 
 .nav-menu {
@@ -145,7 +146,7 @@ img {
 }
 
 footer {
-    color: #000066;
+    color: rgb(0, 0, 102);
     background-color: white;
     text-align: center;
     padding: 15px;
@@ -159,12 +160,12 @@ footer {
 
 .bar {
     display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
+    width: 66px;
+    height: 10px;
+    margin: 14px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    background-color: rgb(255, 255, 255);
 }
 
 /* Mobile Styles */
@@ -174,13 +175,13 @@ footer {
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #0f08e0;
+        background-color: rgb(2, 2, 50);
         width: 100%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         box-shadow:
-            0 10px 27px rgba(255, 255, 255, 0.05);
+            0 10px 27px rgba(255, 255, 255, 0.00);
     }
 
     .nav-menu.active {
@@ -188,7 +189,7 @@ footer {
     }
 
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 0;
     }
 
     .hamburger {
@@ -201,11 +202,11 @@ footer {
     }
 
     .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(23.5px) rotate(45deg);
     }
 
     .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-23.5px) rotate(-45deg);
     }
 
 }
