@@ -76,7 +76,7 @@ h3{
     background-color: rgb(0, 0, 75);
     position: fixed;
     display:block;
-    justify-content: left;
+    justify-content: right;
     
 }
 
@@ -173,7 +173,7 @@ footer {
 @media only screen and (max-width: 1200px) {
     .nav-menu {
         position: fixed;
-        left: -100%;
+        right: -100%;
         top: 4rem;
         flex-direction: column;
         background-color: rgb(0, 0, 75);
@@ -186,7 +186,7 @@ footer {
     }
 
     .nav-menu.active {
-        left: 0;
+        right: 0;
     }
 
     .nav-item {
